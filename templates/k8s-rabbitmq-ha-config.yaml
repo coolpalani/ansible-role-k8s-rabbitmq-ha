@@ -1,0 +1,4 @@
+rabbitmqErlangCookie: {{ rabbitmq_ha_erlang_cookie }}
+persistentVolume:
+  enabled: true
+  storageClass: "rabbitmqha"
